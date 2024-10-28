@@ -1,5 +1,5 @@
-from lin import User as LinUser
-from lin import db, manager
+from base_cms import User as LinUser
+from base_cms import db, manager
 from sqlalchemy import func
 
 

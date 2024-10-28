@@ -1,4 +1,4 @@
-from lin import Duplicated, NotFound
+from base_cms import Duplicated, NotFound
 
 
 class BookNotFound(NotFound):

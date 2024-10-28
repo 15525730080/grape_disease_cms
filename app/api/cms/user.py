@@ -1,7 +1,7 @@
 """
     user apis
     ~~~~~~~~~
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 import jwt
@@ -13,7 +13,7 @@ from flask_jwt_extended import (
     get_jwt_identity,
     verify_jwt_in_request,
 )
-from lin import (
+from base_cms import (
     DocResponse,
     Duplicated,
     Failed,
@@ -77,7 +77,7 @@ def register(json: UserRegisterSchema):
         group_ids = g.group_ids
         # 如果没传分组数据，则将其设定为 guest 分组
         if len(group_ids) == 0:
-            from lin import GroupLevelEnum
+            from base_cms import GroupLevelEnum
 
             group_ids = [GroupLevelEnum.GUEST.value]
         for group_id in group_ids:

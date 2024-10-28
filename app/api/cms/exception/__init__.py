@@ -1,4 +1,4 @@
-from lin import Failed
+from base_cms import Failed
 
 
 class RefreshFailed(Failed):

@@ -1,16 +1,16 @@
 """
-    :copyright: © 2021 by the Lin team.
+    :copyright: © 2021 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 
 from typing import Dict
 
-from lin import SpecTree
+from base_cms import SpecTree
 from spectree import SecurityScheme
 
 api = SpecTree(
     backend_name="flask",
-    title="Lin-CMS-Flask",
+    title="-CMS-Flask",
     mode="strict",
     version="0.4.0",
     # OpenAPI对所有接口描述默认返回一个参数错误, http_status_code为400。

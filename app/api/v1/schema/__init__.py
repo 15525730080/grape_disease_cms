@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from lin import BaseModel
+from base_cms import BaseModel
 
 
 class BookQuerySearchSchema(BaseModel):

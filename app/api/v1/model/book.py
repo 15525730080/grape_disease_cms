@@ -1,9 +1,9 @@
 """
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 
-from lin import InfoCrud as Base
+from base_cms import InfoCrud as Base
 from sqlalchemy import Column, Integer, String
 
 

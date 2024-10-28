@@ -1,9 +1,9 @@
 """
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 
-from lin import db
+from base_cms import db
 
 from app.api.v1.model.book import Book
 

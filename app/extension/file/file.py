@@ -1,4 +1,4 @@
-from lin import InfoCrud, db
+from base_cms import InfoCrud, db
 from sqlalchemy import Column, Index, Integer, String, func, text
 
 

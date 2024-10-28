@@ -1,12 +1,5 @@
-"""
-    a standard CRUD template of book
-    通过 图书 来实现一套标准的 CRUD 功能，供学习
-    :copyright: © 2020 by the Lin team.
-    :license: MIT, see LICENSE for more details.
-"""
-
 from flask import Blueprint, g
-from lin import DocResponse, Success, group_required, login_required, permission_meta
+from base_cms import DocResponse, Success, group_required, login_required, permission_meta
 
 from app.api import AuthorizationBearerSecurity, api
 from app.api.v1.exception import BookNotFound

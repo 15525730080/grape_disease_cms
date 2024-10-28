@@ -1,8 +1,8 @@
 """
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
-from lin import GroupLevelEnum, db, manager
+from base_cms import GroupLevelEnum, db, manager
 
 
 def init(force=False):

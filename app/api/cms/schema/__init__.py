@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from lin import BaseModel, ParameterError
+from base_cms import BaseModel, ParameterError
 from pydantic import EmailStr, Field, validator
 
 

@@ -1,5 +1,5 @@
-from lin import UserIdentity as LinUserIdentity
+from base_cms import UserIdentity as fanbozhouUserIdentity
 
 
-class UserIdentity(LinUserIdentity):
+class UserIdentity(fanbozhouUserIdentity):
     pass

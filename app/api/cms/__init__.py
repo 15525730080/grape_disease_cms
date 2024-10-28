@@ -1,7 +1,7 @@
 """
     register api to admin blueprint
     ~~~~~~~~~
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the  team.
     :license: MIT, see LICENSE for more details.
 """
 

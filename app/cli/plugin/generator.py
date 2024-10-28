@@ -1,18 +1,18 @@
 """
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 import os
 
 banner = """
 \"""
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 \"""
 """
 
 controller = """
-from lin import Redprint
+from base_cms import Redprint
 
 {0}_api = Redprint("{0}")
 

@@ -4,7 +4,7 @@
 
     sse 实现类
 
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 

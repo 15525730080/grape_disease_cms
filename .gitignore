@@ -144,9 +144,9 @@ logs
 # poetry lock
 poetry.lock
 # db
-lincmsdev.db
-lincmsprod.db
-lincms.db
+cmsdev.db
+cmsprod.db
+cms.db
 
 # .env 中记录了私密配置
 # *.env

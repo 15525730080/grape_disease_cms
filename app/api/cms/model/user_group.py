@@ -1,5 +1,5 @@
-from lin import UserGroup as LinUserGroup
-from lin import db
+from base_cms import UserGroup as LinUserGroup
+from base_cms import db
 
 
 class UserGroup(LinUserGroup):

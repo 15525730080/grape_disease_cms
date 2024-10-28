@@ -1,11 +1,11 @@
 """
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 import re
 import time
 
-from lin import Form, ParameterError, manager
+from base_cms import Form, ParameterError, manager
 from wtforms import DateTimeField, FieldList, IntegerField, PasswordField, StringField
 from wtforms.validators import DataRequired, EqualTo, NumberRange, Regexp, length
 

@@ -1,7 +1,7 @@
 import re
 from typing import List, Optional
 
-from lin import BaseModel, ParameterError
+from base_cms import BaseModel, ParameterError
 from pydantic import Field, validator
 
 from . import EmailSchema, GroupIdListSchema, ResetPasswordSchema

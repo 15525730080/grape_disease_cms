@@ -1,8 +1,3 @@
-"""
-    :copyright: © 2020 by the Lin team.
-    :license: MIT, see LICENSE for more details.
-"""
-
 import os
 
 from dotenv import load_dotenv
@@ -57,7 +52,7 @@ def load_app_config(app):
 
 
 def set_global_config(**kwargs):
-    from lin import global_config
+    from base_cms import global_config
 
     # 获取config_*参数对象并挂载到脱离上下文的global config
     for k, v in kwargs.items():
@@ -73,12 +68,12 @@ def create_app(register_all=True, **kwargs):
     app = Flask(__name__, static_folder=os.path.join(basedir, "assets"))
     load_app_config(app)
     if register_all:
-        from lin import Lin
+        from base_cms import BaseServer
 
         register_blueprints(app)
         register_api(app)
         apply_cors(app)
         init_socketio(app)
-        Lin(app, **kwargs)
+        BaseServer(app, **kwargs)
         register_cli(app)
     return app

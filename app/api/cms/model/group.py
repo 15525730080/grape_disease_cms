@@ -1,8 +1,8 @@
-from lin import Group as LinGroup
-from lin import db, manager
+from base_cms import Group
+from base_cms import db, manager
 
 
-class Group(LinGroup):
+class Group(Group):
     def _set_fields(self):
         self._exclude = ["delete_time", "create_time", "update_time", "is_deleted"]
 

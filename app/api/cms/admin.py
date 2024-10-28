@@ -1,13 +1,13 @@
 """
     admin apis
     ~~~~~~~~~
-    :copyright: © 2020 by the Lin team.
+    :copyright: © 2020 by the fanbozhou.
     :license: MIT, see LICENSE for more details.
 """
 import math
 
 from flask import Blueprint, g
-from lin import (
+from base_cms import (
     DocResponse,
     Forbidden,
     GroupLevelEnum,

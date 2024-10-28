@@ -1,8 +1,8 @@
-from lin import Permission as LinPermission
-from lin import db, manager
+from base_cms import Permission
+from base_cms import db, manager
 
 
-class Permission(LinPermission):
+class Permission(Permission):
     @classmethod
     def select_by_group_id(cls, group_id) -> list:
         """
